@@ -88,8 +88,4 @@ components:
             - name: kubeconfig
               emptyDir: {}
             - name: kubeconfig-tpl
-              configMap:
-                name: tutorial-tools-kubeconfig
-                items:
-                - key: config
-                  path: config
+              emptyDir: {}
