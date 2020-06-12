@@ -72,7 +72,7 @@ components:
             # e.g. For Quarkus native builds increase this to 4Gi/4CPU
             securityContext:
               privileged: false
-              runAsUser: 10001
+              runAsUser: 1305930000
             resources:
               limits: 
                 cpu: "1000m"
