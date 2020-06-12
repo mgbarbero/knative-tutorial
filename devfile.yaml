@@ -43,7 +43,7 @@ components:
                 mountPath: /workspace/kubeconfig             
             securityContext:
               privileged: false
-              runAsUser: 10001
+              runAsUser: 1305930000
             command:
                 - bash
                 - -ce
